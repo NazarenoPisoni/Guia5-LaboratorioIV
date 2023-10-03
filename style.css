@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+} 
+
+h1 {
+    font-size: 3rem;
+    color: orangered;
+}
+
+header {
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+a:first-of-type {
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
